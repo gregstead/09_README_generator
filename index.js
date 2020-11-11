@@ -1,4 +1,6 @@
+const fs = require('fs');
 const inquirer = require('inquirer');
+
 
 // array of questions for user
 const questions = [
@@ -8,12 +10,37 @@ const questions = [
         default: 'gregstead',
 
     },
-    // {
-    //     name: '',
-    //     message: '',
-    //     default: '',
+    {
+        name: 'project_title',
+        message: 'What is the project title?',
+    },
+    {
+        name: 'project_description',
+        message: 'Describe the project'
+    },
+    {
+        name: 'contribution_guidelines',
+        message: 'How can developers contribute to the project?',
+        default: '',
 
-    // }
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: '',
+        choices: [
+            'None',
+            'MIT',
+            'other',
+        ],
+
+    },
+    {
+        name: 'test_instructions',
+        message: 'Test instructions',
+        default: '',
+
+    },
 ];
 
 // function to write README file
