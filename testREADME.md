@@ -1,6 +1,6 @@
 
-# README Generator
-A simple README generator
+# test
+This is a test of the README generator
 
 ## Table of contents
 
@@ -12,19 +12,19 @@ A simple README generator
 * [Questions](#questions)
 
 ## Installation
-  None
+  Clone the github repository
 
 ## Usage
-None
+With Node.js installed, navigate to  .../09_README_GENERATOR/ in the terminal/BASH and run node index.js
 
 ## License
 MIT
 
 ## Contributions
-Don't
+Email me
 
 ## Tests
-;]
+None
 
 ## Questions
-None
+Email me
