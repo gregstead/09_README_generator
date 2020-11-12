@@ -11,7 +11,7 @@ ${data.description}
 * [License](#license)
 * [Contributions](#contributions)
 * [Tests](#tests)
-* [Questions](#questions)
+* [Questions](#Questions)
 
 ## Installation
   ${data.installation}
@@ -20,7 +20,7 @@ ${data.description}
 ${data.usage}
 
 ## License
-${data.license}
+![License](https://img.shields.io/badge/license-${data.license}-blue)
 
 ## Contributions
 ${data.contribute}
@@ -32,5 +32,6 @@ ${data.tests}
 ${data.questions}
 `;
 }
+
 
 module.exports = generateMarkdown;
