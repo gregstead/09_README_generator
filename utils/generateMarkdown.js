@@ -20,7 +20,7 @@ ${data.description}
 ${data.usage}
 
 ## License
-![License](https://img.shields.io/badge/license-${data.license}-blue)
+![License](githttps://img.shields.io/badge/license-${data.license}-blue)
 
 ## Contributions
 ${data.contribute}
