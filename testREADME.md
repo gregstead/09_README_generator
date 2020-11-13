@@ -1,6 +1,8 @@
 
+![License](https://img.shields.io/badge/license-MIT-blue)
 # test
-test
+
+A really great project!
 
 ## Table of contents
 
@@ -12,19 +14,26 @@ test
 * [Questions](#Questions)
 
 ## Installation
-  test
+
+Clone the github repository
 
 ## Usage
-test
+
+node index.js
 
 ## License
-![License](https://img.shields.io/badge/license-other-blue)
+
+test is distributed under the MIT license
 
 ## Contributions
-test
+
+Email me or make a pull request
 
 ## Tests
-test
+
+npm test
 
 ## Questions
-test
+
+For any questions, please email <johndoe@john.com>
+Or [visit my github](https://github.com/johnDoe/)

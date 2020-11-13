@@ -10,6 +10,11 @@ const questions = [
         message: 'What is the project title?',
     },
     {
+        name: 'github',
+        message: 'What is your github username?',
+        default: 'gregstead'
+    },
+    {
         name: 'description',
         message: 'Describe the project'
     },
@@ -44,9 +49,9 @@ const questions = [
         default: '',
     },
     {
-        name: 'questions',
-        message: 'How should users get in contact with questions?',
-        default: '',
+        name: 'email',
+        message: 'What is your email address?',
+        default: 'gregstead@gmail.com',
     },
 ];
 
